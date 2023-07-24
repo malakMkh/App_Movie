@@ -5,7 +5,7 @@ const moviesData = [
     description:
       'Chased by a vengeful criminal, the feds and a gang of otherworldly soldiers, an ex-con and his adopted teenage brother go on the run with a weapon of mysterious origin as their only protection.',
     image: '../images/m-1.jpg',
-    trailerUrl: 'https://youtu.be/lNMSqxQtO0w',
+    trailerUrl: 'https://youtu.be/Ac5wrM2uYbk',
     Writer: 'Daniel Casey',
     Stars: 'Myles Truitt, Jack Reynor, Zoë Kravitz, James Franco, Dennis Quaid',
     Director: 'Jonathan Baker and Josh Baker',
@@ -16,7 +16,7 @@ const moviesData = [
     description:
       'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.',
     image: '../images/m-3.jpg',
-    trailerUrl: 'https://www.youtube.com/embed/movie2',
+    trailerUrl: 'https://youtu.be/YoHD9XEInc0',
     Writer: ' Christopher Nolan',
     Stars: 'Leonardo DiCaprio,Joseph Gordon-Levitt,Elliot Page',
     Director: 'Christopher Nolan',

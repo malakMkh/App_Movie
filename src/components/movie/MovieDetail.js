@@ -6,6 +6,7 @@ import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 import styles from './style.module.css';
 import Navbar from '../homepage/Navbar';
 import Footer from '../homepage/Footer';
+import ReactPlayer from 'react-player';
 const MovieDetail = () => {
   const { id } = useParams();
   const movie = moviesData.find((movie) => movie.id === parseInt(id));
@@ -62,11 +63,13 @@ const MovieDetail = () => {
         </div>
         <div className="trailer" id="trailer">
           <h2 style={{ color: 'blue' }}>Trailer</h2>
-          <iframe
-            src={movie.trailerUrl}
-            title="KIN Trailer"
-            allowFullScreen
-          ></iframe>
+          <ReactPlayer
+            className={styles.ifram}
+            url={movie.trailerUrl}
+            controls={true}
+            width="100%"
+            height="600px"
+          />
         </div>
       </section>
       <Footer />
