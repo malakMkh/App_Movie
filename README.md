@@ -1,78 +1,56 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Getting Started with Create React App
+Movie App - Practice Project
+This project is a simple movie app created to practice various concepts in React, such as React Router DOM, useState, useEffect, mapping arrays with the map function, filtering data using the filter function, using Flexbox for layout, and utilizing props.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Introduction
+Technologies Used
+Features
+Getting Started
+Usage
+Contributing
+License
+Introduction
+The Movie App is a basic React application that allows users to explore a collection of movies. It leverages React Router DOM for navigation, useState and useEffect hooks for state management, the map function to iterate over movie data, and the filter function to search and filter movies based on user input. Flexbox is used for styling the layout, and the app is designed to make use of props to pass data between components.
 
-## Available Scripts
+Technologies Used
+React
+React Router DOM
+useState
+useEffect
+Flexbox
+Features
+The Movie App comes with the following features:
 
-In the project directory, you can run:
+Home page displaying a list of movies
+Navigation using React Router DOM to navigate between pages
+Search functionality to filter movies based on user input
+Details page for each movie displaying more information
+Basic styling using Flexbox for responsive design
+Getting Started
+To get started with the project, follow these steps:
 
-### `npm start`
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/movie-app.git
+Change directory to the project folder:
+bash
+Copy code
+cd movie-app
+Install dependencies:
+bash
+Copy code
+npm install
+Start the development server:
+bash
+Copy code
+npm start
+The app will now be running at http://localhost:3000.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Usage
+Once the development server is running, you can visit http://localhost:3000 in your web browser to access the Movie App. On the home page, you will see a list of movies. You can use the search bar to filter the movies by title. Clicking on a movie will take you to its details page, where you can view more information about the selected movie.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Feel free to explore and experiment with the app to understand the implementation of the various concepts.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Movie_App
->>>>>>> origin/master
-=======
-# App_Movie
->>>>>>> origin/master
+Contributing
+Contributions to the Movie App project are welcome. If you find any issues or have ideas to improve the app, please create a pull request or raise an issue. Your contributions will help improve the learning experience for everyone
