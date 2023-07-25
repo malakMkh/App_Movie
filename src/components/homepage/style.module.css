@@ -219,3 +219,21 @@ footer {
   color: #ffffff;
   font-size: 20px;
 }
+.search_item {
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search_item div {
+  padding: 5px;
+}
+
+.search_item div:hover {
+  background-color: #f0f0f0;
+}

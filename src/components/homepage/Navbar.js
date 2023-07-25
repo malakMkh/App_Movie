@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import styles from './style.module.css';
+import moviesData from '../data';
 const Navbar = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filteredMovies, setFilteredMovies] = useState([]);
+  /*searchquery took the value of the input  */
+  const handleSearch = (e) => {
+    const query = e.target.value;
+    setSearchQuery(query);
+
+    const filteredMovies = moviesData.filter((movie) =>
+      movie.title.toLowerCase().includes(query.toLowerCase())
+    );
+    setFilteredMovies(filteredMovies);
+  };
   return (
     <nav>
       {/* --Nom/logo--- */}
@@ -25,9 +38,23 @@ const Navbar = () => {
         </li>
       </ul>
       {/* --menu de recherche --- */}
-      <div className={styles.search}>
-        <input type="text" placeholder="search.." />
-        <FontAwesomeIcon icon={faSearch} />
+      <div className={styles.search_container}>
+        <div className={styles.search}>
+          <input
+            type="text"
+            placeholder="search.."
+            value={searchQuery}
+            onChange={handleSearch}
+          />
+          <FontAwesomeIcon icon={faSearch} />
+        </div>
+        {searchQuery.length > 0 && (
+          <div className={styles.search_item}>
+            {filteredMovies.map((movie) => (
+              <div key={movie.id}>{movie.title}</div>
+            ))}
+          </div>
+        )}
       </div>
     </nav>
   );

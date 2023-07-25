@@ -25,7 +25,6 @@ const Home = () => {
           <h2 style={{ color: '#ffffff' }}>
             Unlimited movies and TV shows, and much more
           </h2>
-          <button className={styles.Hero_button}>Signin</button>
         </div>
       </section>
       <section className={styles.main}>
