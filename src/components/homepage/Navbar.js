@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import styles from './style.module.css';
 import moviesData from '../data';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredMovies, setFilteredMovies] = useState([]);
@@ -51,7 +52,9 @@ const Navbar = () => {
         {searchQuery.length > 0 && (
           <div className={styles.search_item}>
             {filteredMovies.map((movie) => (
-              <div key={movie.id}>{movie.title}</div>
+              <Link key={movie.id} to={`/movies/${movie.id}`}>
+                <div key={movie.id}>{movie.title}</div>
+              </Link>
             ))}
           </div>
         )}
