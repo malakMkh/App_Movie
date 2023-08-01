@@ -1,5 +1,6 @@
 Movie App - Practice Project
 This project is a simple movie app created to practice various concepts in React, such as React Router DOM, useState, useEffect, mapping arrays with the map function, filtering data using the filter function, using Flexbox for layout, and utilizing props.
+![Capture d’écran 2023-08-01 142756](https://github.com/malakMkh/App_Movie/assets/123992427/42b3b68b-9601-4221-90b1-e69387ae7a6c)
 
 Table of Contents
 Introduction
